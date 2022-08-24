@@ -1,0 +1,30 @@
+@media only screen and (max-width:600px){
+
+
+.navbar{
+    background-color: brown;
+    height: 92px;
+    box-shadow: 2px 2px 15px 0px chartreuse;
+    align-items: center;
+}
+.navbar .menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: cornflowerblue;
+    height: 50vh;
+    left: -1em;
+    transform: translateY(-120%);
+}
+.menu li{
+    margin-top: 3em;
+}
+.navbar .menu-bar{
+    display: block;
+    font-size: 2em;
+    color: deeppink;
+    cursor: pointer;
+}
+
+}
