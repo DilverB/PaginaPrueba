@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'stylemovil.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+.img-logo{
+    width: 10em;
+    height: 10em;
+    border-radius: 4em;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Imagenes/Fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+}
+
+.navbar .brand{
+    color: darkorange;
+}
+
+.navbar .menu{
+    grid-column: 6/9;
+    display: flex;
+    margin-top: 12px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-right: 3em;
+    color: rgb(0, 236, 253);
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.menu li a:hover{
+    background-color: crimson;
+    transition: all .10s;
+    border-radius: 20px;
+    box-shadow: 0px 13px 14px 8px rgb(255, 0, 255);
+}
+
+.navbar .menu-bar{
+    color: deeppink;
+    font-size: 2.5em;
+    margin-right: -0.5em;
+    margin-top: -1em;
+}
+.img1{
+    box-shadow: 0px 13px 14px 8px rgb(255, 0, 255);
+}
+.content-info{
+    margin-top: 5em;
+    color: cyan;
+}
+
+button{
+    cursor: pointer;
+    color: chartreuse;
+    box-shadow: 0px 13px 14px 8px rgb(255, 0, 255);
+}
+
+button:hover{
+    box-shadow: none;
+    background-color: crimson;
+    transition: all .10s;
+}
+
+.btn-tobuy, .read-more{
+    background: none;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: 3px solid steelblue;
+}
+
+.read-more{
+    background: none;
+    border: 3px solid steelblue;
+    margin: 20px;
+}
+.main{
+    margin-left: 5em;
+}
+.main img{
+    margin: 3em;
+}
