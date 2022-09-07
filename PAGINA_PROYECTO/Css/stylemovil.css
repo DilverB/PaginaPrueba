@@ -19,11 +19,11 @@
     right: -1em;
     top: 5.5em;
     transform: translateY(-140%);
-    transition: all 1.4s;
+    transition: all 1s;
 }
 
 .navbar .menu-toggle{
-    transform: translateY(0%);
+    transform: translateX(0%);
 }
 
 .menu li{

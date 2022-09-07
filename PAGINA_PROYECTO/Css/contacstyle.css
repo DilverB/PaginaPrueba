@@ -5,7 +5,7 @@ body{
     font-family: 'roboto', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: url(../Imagenes/Index.jpg);
+    background-image: url(../Imagenes/Contacto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,16 +59,9 @@ body{
 .img1{
     box-shadow: 0px 13px 14px 8px rgb(111, 0, 255);
 }
-
-.main{
-    text-align: center;
-}
-.main img{
-    margin: 3em;
-}
-
 .content-info{
     margin-top: 5em;
+    color: cyan;
 }
 
 .content-info .display-1{
@@ -83,27 +76,35 @@ body{
     font-family: Viner Hand ITC;
 }
 
+button{
+    cursor: pointer;
+    color: chartreuse;
+    box-shadow: 0px 13px 14px 8px rgb(111, 0, 255);
+}
+
 button:hover{
     box-shadow: none;
     background-color: crimson;
     transition: all .10s;
 }
 
-.read-more a{
-    color: cyan;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.read-more{
-    text-decoration: none;
+.btn-tobuy, .read-more{
     background: none;
     padding: 8px 40px;
     font-size: 1.2em;
     border-radius: 20px;
     border: 3px solid steelblue;
-    cursor: pointer;
-    color: cyan;
-    box-shadow: 0px 13px 14px 8px rgb(111, 0, 255);
-    margin-bottom: 3em;
+}
+
+.read-more{
+    background: none;
+    border: 3px solid steelblue;
+    margin: 20px;
+}
+.main{
+    margin-left: 5em;
+    text-align: center;
+}
+.main img{
+    margin: 3em;
 }
