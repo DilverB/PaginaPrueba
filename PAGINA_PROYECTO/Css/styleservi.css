@@ -44,23 +44,21 @@ body{
     margin-right: 3em;
     color: rgb(111, 0, 255);
     border-radius: 20px;
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 3em;
     font-family: Chiller;
 }
 
 .menu li a:hover{
     background-color: crimson;
-    transition: all .10s;
+    transition:all .10s;
     border-radius: 20px;
     box-shadow: 0px 13px 14px 8px rgb(0, 236, 253);
 }
 
 .img1{
-    width: 280px;
-    height: 350px;
+    border-radius: 500px;
     box-shadow: 0px 13px 14px 8px rgb(111, 0, 255);
-    ;
+    margin-left: 15em;
 }
 .main .content-info{
     text-align: center;
@@ -83,5 +81,8 @@ body{
     font-family: Viner Hand ITC;
 }
 p{
+    text-align: center;
     color: aliceblue;
+    font-family: Forte;
+    font-size: 2em;
 }
